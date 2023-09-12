@@ -1,0 +1,262 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .header_center {
+        width: 424px;
+    }
+
+    .header_menu {
+        gap: 0px;
+    }
+
+    .contact_menu {
+        margin-left: 25px;
+        margin-right: 42px;
+    }
+
+    .right_content {
+        width: 283px;
+        margin-top: 138px;
+        margin-left: 39px;
+        font-size: 44px;
+        line-height: 53px;
+    }
+
+    .right_content__item {
+        font-size: 24px;
+        line-height: 29px;
+
+    }
+
+    .right_content__item_last {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .center {
+        padding-left: calc(50% - 367px);
+        padding-right: calc(50% - 367px);
+    }
+
+    .advantages {
+        gap: 20px;
+        padding-bottom: 110px;
+    }
+
+    .advantages-item-big {
+        min-height: 116px;
+    }
+
+    .text_main_card {
+        margin-top: 3px;
+    }
+
+    .cards {
+        margin-top: 73px;
+        grid-template-columns: repeat(2, 360px);
+        gap: 16px;
+    }
+
+    .cards_item__content {
+        padding: 24px 29px 20px 16px;
+    }
+
+    .bottom {
+        margin-top: 32px;
+        margin-bottom: 0;
+    }
+
+    .main_card {
+        margin: 0;
+    }
+
+    .footer__addition {
+        padding-top: 48px;
+        padding-bottom: 64px;
+        gap: 48Px;
+        flex-wrap: wrap;
+    }
+
+    .footer__addition__item {
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+    .footer__subscribe {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+
+    .footer__subscribe__left {
+        margin-top: 64px;
+        margin-bottom: 48px;
+    }
+
+    .footer__subscribe_right {
+        margin-bottom: 140px;
+    }
+
+    .footer__subscribe__right__text {
+        margin-top: 0px;
+    }
+
+    .footer__subscribe_right__form {
+        margin-top: 24px;
+    }
+
+    .footer__bottom__left {
+        margin-left: 32px;
+    }
+
+    .footer__bottom__right {
+        margin-right: 32px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .header_center {
+        width: 200px;
+    }
+
+    .header_menu {
+        margin-bottom: 26px;
+    }
+
+    .contact_menu {
+        display: none;
+    }
+
+    .customs_menu {
+        display: none;
+    }
+
+    .content {
+        justify-content: center;
+    }
+
+    .left_content_img {
+        display: none;
+    }
+
+    .right_content {
+        width: 236px;
+        margin: 148px auto;
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .right_content__item {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .right_content__item_last {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .advantages {
+        display: grid;
+        gap: 32px;
+        grid-template-columns: repeat(1, minmax(30%, 343px));
+        padding-top: 64px;
+        padding-bottom: 64px;
+        justify-content: center;
+        align-items: baseline;
+        justify-items: center;
+    }
+
+
+    .advantages-item-big {
+        display: none;
+    }
+
+    .advantages-item-big-mobail {
+        position: relative;
+        display: block;
+        display: flex;
+    }
+
+    .main_card {
+        margin-bottom: 0px;
+    }
+
+    .cards {
+        margin-top: 65px;
+        grid-template-columns: repeat(1, 359px);
+        gap: 16px;
+    }
+
+    .bottom {
+        margin-top: 40px;
+    }
+
+    .footer__addition {
+        padding-top: 48px;
+        padding-bottom: 81px;
+        gap: 46px;
+        flex-wrap: wrap;
+    }
+
+    .footer__addition__item {
+        margin: 0;
+        flex-wrap: wrap;
+        max-width: 348px;
+    }
+
+    .footer__subscribe {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+
+    .footer__subscribe__left {
+        margin-top: 64px;
+        margin-bottom: 59px;
+    }
+
+    .footer__subscribe__left_text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .footer__subscribe_right {
+        margin-bottom: 110px;
+    }
+
+    .footer__subscribe__right__head__head {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 37px;
+
+    }
+
+    .footer__subscribe__right__text {
+        margin-top: 0px;
+    }
+
+    .footer__subscribe_right__form {
+        margin-top: 22px;
+    }
+
+    .footer__bottom {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer__bottom__left {
+        margin-left: 0px;
+        margin-top: 0;
+        margin-bottom: 9px;
+        width: auto;
+    }
+
+    .footer__bottom__right {
+        margin-right: 0px;
+        margin-top: 43px;
+        margin-bottom: 40px;
+    }
+}
